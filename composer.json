@@ -1,0 +1,19 @@
+{
+    "name": "yaden/composer-library",
+    "description": "test library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Yaden\\ComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yadenmustopa",
+            "email": "brildent@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=8.0"
+    }
+}
